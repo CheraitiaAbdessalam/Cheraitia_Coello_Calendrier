@@ -5,8 +5,46 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Cheraitia_Coello_Calendrier"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="450" Width="800" Background="Black">
 
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <!-- Ligne 1 -->
+            <RowDefinition Height="6*"/>
+            <!-- Ligne 2 -->
+            <RowDefinition Height="1*"/>
+            <!-- Ligne 3 -->
+        </Grid.RowDefinitions>
+
+        <!-- Ligne 1 : trois colonnes pour répartir les boutons -->
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="0" Content="Carte du jour" Margin="5" Background="#FBC02D" />
+            <Button Grid.Column="1" Content="Menu des cartes" Margin="5" Background="#FF5A5F"/>
+            <Button Grid.Column="2" Content="Paramètre" Margin="5" Background="#00C49A" />
+        </Grid>
+
+        <!-- Ligne 2 : Image -->
+        <Image Grid.Row="1"
+               Source="Image/img1.png"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               Width="685"
+               Height="392"
+               Stretch="Uniform" />
+
+        <!-- Ligne 3 : TextBox avec ton prénom -->
+        <TextBox Grid.Row="2"
+                 Text="Cheraitia"
+                 HorizontalAlignment="Center"
+                 Margin="10"
+                 Width="200"/>
     </Grid>
+
 </Window>
