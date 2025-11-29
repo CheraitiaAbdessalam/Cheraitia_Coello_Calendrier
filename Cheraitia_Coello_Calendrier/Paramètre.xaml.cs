@@ -1,4 +1,8 @@
-﻿using System.Text;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -12,17 +16,13 @@ using System.Windows.Shapes;
 namespace Cheraitia_Coello_Calendrier
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Logique d'interaction pour Paramètre.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Paramètre : Page
     {
-        public MainWindow()
+        public Paramètre()
         {
             InitializeComponent();
-        }
-
-        private void Paramètre_Click(object sender, RoutedEventArgs e)
-        {
         }
     }
 }

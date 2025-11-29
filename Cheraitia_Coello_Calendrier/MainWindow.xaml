@@ -25,9 +25,10 @@
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
-            <Button Grid.Column="0" Content="Carte du jour" Margin="5" Background="#FBC02D" />
-            <Button Grid.Column="1" Content="Menu des cartes" Margin="5" Background="#FF5A5F"/>
-            <Button Grid.Column="2" Content="Paramètre" Margin="5" Background="#00C49A" />
+            <Button Grid.Column="0" Content="Carte du jour" Margin="5" Background="#FBC02D" Click="CarteDuJour_Click" />
+            <Button Grid.Column="1" Content="Menu des cartes" Margin="5" Background="#FF5A5F" Click="MenuDesCartes_Click"/>
+            <Button Grid.Column="2" Content="Paramètre" Margin="5" Background="#00C49A" Click="Paramètre_Click" />
+            
         </Grid>
 
         <!-- Ligne 2 : Image -->
