@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Cheraitia_Coello_Calendrier
+namespace Cheraitia_Coello_Calendrier.Views
 {
     /// <summary>
-    /// Logique d'interaction pour CarteDuJour.xaml
+    /// Logique d'interaction pour CartedujourPage.xaml
     /// </summary>
-    public partial class CarteDuJour : UserControl
+    public partial class CartedujourPage : UserControl
     {
-        public CarteDuJour()
+        public CartedujourPage()
         {
             InitializeComponent();
         }

@@ -13,16 +13,18 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Cheraitia_Coello_Calendrier
+namespace Cheraitia_Coello_Calendrier.Views
 {
     /// <summary>
-    /// Logique d'interaction pour Paramètre.xaml
+    /// Logique d'interaction pour ParametrePage.xaml
     /// </summary>
-    public partial class Paramètre : Page
+    public partial class ParametrePage : UserControl
     {
-        public Paramètre()
+        public ParametrePage()
         {
             InitializeComponent();
         }
+
+
     }
 }

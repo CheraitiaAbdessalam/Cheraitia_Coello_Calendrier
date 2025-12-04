@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Cheraitia_Coello_Calendrier
+namespace Cheraitia_Coello_Calendrier.Views
 {
     /// <summary>
-    /// Logique d'interaction pour MenuDesCartes.xaml
+    /// Logique d'interaction pour MenudescartePage.xaml
     /// </summary>
-    public partial class MenuDesCartes : Page
+    public partial class MenudescartePage : UserControl
     {
-        public MenuDesCartes()
+        public MenudescartePage()
         {
             InitializeComponent();
         }
