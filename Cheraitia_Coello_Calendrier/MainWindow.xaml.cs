@@ -28,9 +28,9 @@ namespace Cheraitia_Coello_Calendrier
         private void Parametre_Click(object sender, RoutedEventArgs e)
         {
 
-            Container.Children.Clear();
+            ContentArea.Children.Clear();
             ParametrePage parametrePage = new ParametrePage();
-            Container.Children.Add(parametrePage);
+            ContentArea.Children.Add(parametrePage);
 
 
 
@@ -39,7 +39,10 @@ namespace Cheraitia_Coello_Calendrier
 
         private void MenuDesCartes_Click(object sender, RoutedEventArgs e)
         {
-            
+            ContentArea.Children.Clear();
+            MenudescartePage menudescartesPage = new MenudescartePage();
+            ContentArea.Children.Add(menudescartesPage);
+
 
         }
 

@@ -10,13 +10,16 @@
 
     <Grid x:Name="Container" >
 
+        <Grid.Background>
+            <ImageBrush ImageSource="Image/img1.png" Stretch="Fill"/>
+        </Grid.Background>
+
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
             <!-- Ligne boutons -->
-            <RowDefinition Height="6*"/>
+            <RowDefinition Height="8*"/>
             <!-- Ligne contenu -->
-            <RowDefinition Height="1*"/>
-            <!-- Bas -->
+            
         </Grid.RowDefinitions>
 
         <!-- Ligne 1 : boutons -->
@@ -37,15 +40,15 @@
             <!-- Ici on affiche le UserControl -->
         </Grid>
         <!-- Ligne 2 : Image -->
-        <Image Grid.RowSpan="3"
+        <!--<Image Grid.RowSpan="3"
        Source="Image/img1.png"
        HorizontalAlignment="Center"
        VerticalAlignment="Center"
       
-       Stretch="Fill" />
+       Stretch="Fill" />-->
 
         <!-- Ligne 1 : trois colonnes pour répartir les boutons -->
-        <Grid Grid.Row="0">
+        <!--<Grid Grid.Row="0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
@@ -56,7 +59,7 @@
             <Button Grid.Column="1" Content="Menu des cartes" Margin="5" Background="#FF5A5F" Click="MenuDesCartes_Click"/>
             <Button Grid.Column="2" Content="Paramètre" Margin="5" Background="#00C49A" Click="Parametre_Click" />
 
-        </Grid>
+        </Grid>-->
 
         <Grid>
             
