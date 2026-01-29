@@ -9,6 +9,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using Cheraitia_Coello_Calendrier.Views;
+
 namespace Cheraitia_Coello_Calendrier
 {
     /// <summary>
@@ -19,6 +21,35 @@ namespace Cheraitia_Coello_Calendrier
         public MainWindow()
         {
             InitializeComponent();
+            
+
+        }
+
+        private void Parametre_Click(object sender, RoutedEventArgs e)
+        {
+
+            ContentArea.Children.Clear();
+            ParametrePage parametrePage = new ParametrePage();
+            ContentArea.Children.Add(parametrePage);
+
+
+
+
+        }
+
+        private void MenuDesCartes_Click(object sender, RoutedEventArgs e)
+        {
+            ContentArea.Children.Clear();
+            MenudescartePage menudescartesPage = new MenudescartePage();
+            ContentArea.Children.Add(menudescartesPage);
+
+
+        }
+
+        private void CarteDuJour_Click(object sender, RoutedEventArgs e)
+        {
+           
+
         }
     }
 }
